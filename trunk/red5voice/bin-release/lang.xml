@@ -1,0 +1,24 @@
+<resources locale="fr">
+<connectedUsers>utilisateurs connectés</connectedUsers>
+<START_ROOM>Welcome</START_ROOM>
+<start>Start</start>
+<stop>Stop</stop>
+<channel>Canal</channel>
+
+
+<url_Register>register.php</url_Register>
+<url_help>help.php</url_help>
+<url_endChatUrl>end.php</url_endChatUrl>
+<url_kicked>kick.php</url_kicked>
+<URLGATEWAY>http://192.168.1.10/red5voice/amfphp/gateway.php</URLGATEWAY>
+<server>rtmp://192.168.1.10/red5voice/</server>
+<HTTPserver>http://192.168.1.10/red5voice/</HTTPserver>
+<username>username</username>
+<admin>admin</admin>
+<volume>volume</volume>
+<avaibleCredits>Avaible Credits</avaibleCredits>
+<send>Send</send>
+<quit>quit</quit>
+<chat>Chat</chat>
+<chatters>Chatters</chatters>
+</resources>

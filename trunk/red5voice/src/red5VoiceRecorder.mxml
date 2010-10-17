@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" xmlns:ns1="*"  width="320" height="240" applicationComplete="initialiser()" frameRate="25">
+<mx:Script source="red5VoiceRecorder.as" />	
+<mx:Style source="style/css.css" />
+	<mx:Label text="{res.connectedUsers}: {users_dp.length}" left="0" right="0" bottom="15" textAlign="center"/>
+	<mx:Button fontWeight="normal" fontSize="20" id="record_btn" toggle="true" click="recordClick()" enabled="false" left="66" right="65" top="74" bottom="73" styleName="recordButton"/>
+	<mx:TextInput id="channel_txt" text="{res.START_ROOM}" top="1" left="95"/>
+	<mx:TextInput x="95" y="25" id="username_txt" text="{res.admin}"/>
+	<mx:Label x="0" y="0" text="{res.channel}"/>
+	<mx:Label x="0" y="28" text="{res.username}"/>
+	<mx:Button label="Ok" right="1" fontWeight="normal" click="login()" height="48" width="57" top="1" buttonMode="true"/>
+	<mx:ProgressBar label="{res.volume}" labelPlacement="center" minimum="0" maximum="100" id="micLevel" mode="manual" fontWeight="normal" left="0" right="0" bottom="0" height="12" color="#000000"/>
+
+
+</mx:Application>

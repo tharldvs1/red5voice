@@ -1,0 +1,49 @@
+
+Button.listen
+{
+	fontWeight: normal;
+	paddingLeft: 0;
+	paddingRight: 0;
+	paddingTop: 0;
+	paddingBottom: 0;
+	cornerRadius: 0;
+	upIcon: Embed(source="../assets/soiundOn.png");
+	overIcon: Embed(source="../assets/soiundOn.png");
+	downIcon: Embed(source="../assets/soiundOn.png");
+	disabledIcon: Embed(source="../assets/soiundOn.png");
+	selectedUpIcon: Embed(source="../assets/soundOff.png");
+	selectedOverIcon: Embed(source="../assets/soundOff.png");
+	selectedDownIcon: Embed(source="../assets/soundOff.png");
+	selectedDisabledIcon: Embed(source="../assets/soundOff.png");
+}
+Button.recordButton
+{
+	fontWeight: normal;
+	selectedUpIcon: Embed(source="../assets/record.png");
+	selectedOverIcon: Embed(source="../assets/record.png");
+	selectedDownIcon: Embed(source="../assets/record.png");
+	selectedDisabledIcon: Embed(source="../assets/record.png");
+
+}
+@font-face
+{
+	fontFamily: Arial;
+	fontWeight: normal;
+	fontStyle: normal;
+	src: local("Arial");
+}
+@font-face
+{
+	fontFamily: Arial;
+	fontWeight: normal;
+	fontStyle: bold;
+	src: local("Arial");
+}
+
+@font-face
+{
+	fontFamily: Verdana;
+	fontWeight: normal;
+	fontStyle: normal;
+	src: local("Verdana");
+}
