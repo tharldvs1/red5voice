@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="32" height="32" creationComplete=" initialiser()">
+<mx:Script source="red5VoicePlayer.as" />	
+<mx:Style source="style/css.css" />
+	<mx:Button fontWeight="normal" width="32" x="0" height="32" y="0" id="listen_btn" click="swicthListen()" toggle="true" buttonMode="true" styleName="listen" enabled="false"/>
+	
+</mx:Application>
